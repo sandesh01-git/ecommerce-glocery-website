@@ -1,0 +1,199 @@
+!<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/cooltext408825710397024.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <form class="d-flex">
+              <input class="form-control me-0" style="width: 20rem;" type="search"
+                placeholder="Search a product e.g. milk" aria-label="Search a product e.g. milk">
+              <button class="btn btn-success" style=" filter: drop-shadow(8px 8px 10px gray);"
+                type="submit">Search</button>
+            </form>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li><a class="dropdown-item" href="#">Cart</a></li>
+
+                <li><a class="dropdown-item" href="#">About</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Shop Now
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meats</a></li>
+                <li><a class="dropdown-item" href="#">Fruits</a></li>
+                <li><a class="dropdown-item" href="#">Tea</a></li>
+                <li><a class="dropdown-item" href="#">Coffee</a></li>
+                <li><a class="dropdown-item" href="#">Soft Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Beer</a></li>
+                <li><a class="dropdown-item" href="#">Wines</a></li>
+                <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Personal Hygiene</a></li>
+                <li><a class="dropdown-item" href="#">Diary Products</a></li>
+                <li><a class="dropdown-item" href="#">Eggs</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#san"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path
+                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg> </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path
+                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg>
+                <title id="svgcid--n8wixqc005o">Location</title>
+              </a>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+ 
+  <section id="form">
+    <div class="login-box">
+     
+      <form>
+        <h1>LOGIN</h1>
+        <label>Email</label>
+        <input type="email" placeholder="Enter e-mail" required>
+        <div class="valid-feedback">Valid.</div>
+        <label>Password</label>
+        <input type="password" placeholder=" Enter Password Please">
+        <button type="submit" value="submit" class="button3"> Submit</button>
+      </form>
+      <p class="formp"> By clicking sign up <br>
+      <a href="#">Terms and condition</a> and   <a href="#">Privacy Policy</a> 
+    </p>
+    </div>
+    <p class="formpa">Already have an account <a href="signup.html">SIGN UP</a></p>
+  </section>
+
+
+
+
+
+
+
+
+  <footer>
+    <section id="futter">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="product">
+              <p class="fw-bolder fs-4">Store</p>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Veg-Item</a>
+                </li>
+                <li> <a href="#">Non-Veg-Item</a></li>
+                <li> <a href="#">Drinks</a></li>
+                <li> <a href="#">Diary</a></li>
+                <li> <a href="#">Kitchen</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="Resources">
+              <p class="fw-bolder fs-4">Company</p>
+              <ul class="list-unstyled">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Special Offers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="support">
+              <p class="fw-bolder fs-4">Information</p>
+              <ul class="list-unstyled">
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Secure Payment</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+
+                <li><a href="#">FAQS</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 2col-12">
+            <div class="compare">
+              <p class="fw-bolder fs-4">Newsletter Subscription</p>
+              <form class="newsletter-form" action="#">
+                <input class="form-control" type="text" id="email" placeholder="Your email address">
+                <button class="btn btn-success animate__animated animate__heartBeat" type="submit"
+                  id="but">Subscribe</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<button onclick="myFunction()">Toggle dark mode</button>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+</html>
